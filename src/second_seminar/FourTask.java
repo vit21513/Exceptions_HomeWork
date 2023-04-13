@@ -1,4 +1,5 @@
 package second_seminar;
+
 import java.io.*;
 
 //4) Исправьте код, примените подходящие способы обработки исключений:
@@ -33,15 +34,13 @@ import java.io.*;
 //        test();
 //        }
 
-
-
-
 public class FourTask {
 
     public static void main(String[] args) {
+
         InputStream inputStream;
         try {
-            String[] strings = {"apple", "orange"};
+            String[] strings = { "apple", "orange" };
             String strings1 = strings[2];
             test();
             int a = 1 / 0;
@@ -67,6 +66,7 @@ public class FourTask {
     }
 
     private static void test() throws IOException {
+
         File file = new File("1");
         if (!file.exists()) {
             file.createNewFile();
@@ -76,10 +76,3 @@ public class FourTask {
         test();
     }
 }
-
-
-
-
-
-
-

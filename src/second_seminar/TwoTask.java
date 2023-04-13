@@ -1,5 +1,6 @@
-package first_seminar.second;
+package second_seminar;
 //2) Если необходимо, исправьте данный код
+
 //Задание 2
 //        try {
 //       int d = 0;
@@ -13,10 +14,9 @@ package first_seminar.second;
 
 public class TwoTask {
 
-
     public static void main(String[] args) {
 
-        int[] intArray = {1, 2, 3, 4, 5, 6, 7, 8};
+        int[] intArray = { 1, 2, 3, 4, 5, 6, 7, 8 };
         try {
             int d = 0;
             double catchedRes1 = intArray[8] / d;

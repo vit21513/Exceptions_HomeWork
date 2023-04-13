@@ -1,6 +1,7 @@
-package first_seminar.second;
+package second_seminar;
 
 //3) Дан следующий код, исправьте его там, где требуется (задание 3)
+
 //Задание 3
 //
 //public static void main(String[] args) throws Exception {
@@ -22,7 +23,6 @@ package first_seminar.second;
 //public static void printSum(Integer a, Integer b) throws FileNotFoundException {
 //        System.out.println
 
-
 public class ThirdTask {
 
     public static void main(String[] args) {
@@ -31,7 +31,7 @@ public class ThirdTask {
             int b = 3;
             System.out.println(a / b);
             printSum(23, 234);
-            int[] abc = {1, 2};
+            int[] abc = { 1, 2 };
             abc[3] = 9;
         } catch (NullPointerException e) {
             e.printStackTrace();
@@ -49,8 +49,8 @@ public class ThirdTask {
     }
 
     public static void printSum(Integer a, Integer b) {
-        System.out.println(a + b);   //убрал throws FileNotFoundException .. нет операций с файлами
+        System.out.println(a + b); 
+        // убрал throws FileNotFoundException .. нет операций с файлами
     }
-
 
 }

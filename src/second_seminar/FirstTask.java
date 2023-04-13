@@ -1,4 +1,5 @@
-package first_seminar.second;
+
+package second_seminar;
 
 import java.util.Scanner;
 
@@ -13,7 +14,6 @@ public class FirstTask {
     }
 
     public static float RepostNumber() {
-
 
         float result;
         while (true) {
