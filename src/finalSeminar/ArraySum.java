@@ -1,10 +1,9 @@
 
 
-
 public class ArraySum {
 
     public static void main(String[] args) {
-        String[][] arr = {{"6", "7", "4", "4"}, {"5", "8", "7", "2"}, {"9", "6", "11", "52"}, {"3", "7", "15", "12"}};
+        String[][] arr = {{"6", "7", "4", "4"}, {"5", "7", "7", "2"}, {"9", "6", "11", "52"}, {"3", "7", "15", "12"}};
         try {
             int sum = sumArray(arr);
             System.out.println("Сумма элементов массива: " + sum);
